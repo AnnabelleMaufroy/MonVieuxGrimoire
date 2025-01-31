@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+//const cors = require('cors');
 
 const bookRoutes = require('./routes/book');
 const userRoutes = require('./routes/user');
@@ -7,6 +8,7 @@ const userRoutes = require('./routes/user');
 require('dotenv').config()
 
 const app = express();
+//app.use(cors());
 
 mongoose.connect(process.env.URLATLAS,
     { useNewUrlParser: true, useUnifiedTopology: true })
