@@ -49,4 +49,10 @@ Ce projet est le backend de l'application **Mon Vieux Grimoire**, une plateforme
 - Protection des adresses e-mail via Mongoose
 
 ## Auteur
-Développement backend réalisé par Maufroy Annabelle.
+
+Projet réalisé par Maufroy Annabelle.
+
+---
+
+Ce projet a été développé dans le cadre d'une formation de développeur web.
+
